@@ -1,5 +1,5 @@
-/* Prog18.cpp */
-/* Definindo a base numérica */
+/* Prog18.c */
+/* Definindo a base numÃ©rica */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
 #include <locale.h> /* para setlocale() */
