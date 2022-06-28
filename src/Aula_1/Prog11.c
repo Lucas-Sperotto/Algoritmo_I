@@ -1,4 +1,4 @@
-/* Prog11.cpp */
+/* Prog11.c */
 /* Tamanho de campo com ponto flutuante */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
