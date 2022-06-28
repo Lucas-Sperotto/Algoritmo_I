@@ -1,4 +1,4 @@
-/* Prog17.cpp */
+/* Prog17.c */
 /* Tamanho de campo e complementando com zeros */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
