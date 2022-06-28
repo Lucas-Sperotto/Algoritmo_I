@@ -1,4 +1,4 @@
-/* Prog20.cpp */
+/* Prog20.c */
 /*Desenha moldura*/
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
