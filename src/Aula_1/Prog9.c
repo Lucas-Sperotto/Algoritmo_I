@@ -1,4 +1,4 @@
-/* Prog9.cpp */
+/* Prog9.c */
 /* Tamanho de campo com inteiros */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
@@ -6,9 +6,9 @@
 int main()
 {
     setlocale(LC_ALL, "Portuguese"); /* Configura o idioma portugues */
-    printf("Os alunos s„o %2d.\n", 350);
-    printf("Os alunos s„o %4d.\n", 350);
-    printf("Os alunos s„o %5d.\n", 350);
+    printf("Os alunos s√£o %2d.\n", 350);
+    printf("Os alunos s√£o %4d.\n", 350);
+    printf("Os alunos s√£o %5d.\n", 350);
 
     system("PAUSE");
     return 0;
