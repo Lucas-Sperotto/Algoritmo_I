@@ -1,4 +1,4 @@
-/* Prog14.cpp */
+/* Prog14.c */
 /* Com tamanho de campo */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
