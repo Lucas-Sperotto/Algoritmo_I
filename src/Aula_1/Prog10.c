@@ -1,4 +1,4 @@
-/* Prog10.cpp */
+/* Prog10.c */
 /* Tamanho de campo com inteiros */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
