@@ -1,4 +1,4 @@
-/* Prog16.cpp */
+/* Prog16.c */
 /* Tamanho de campo com cadeias de caracteres */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
