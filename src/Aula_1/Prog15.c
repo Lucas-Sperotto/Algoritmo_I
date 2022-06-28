@@ -1,5 +1,5 @@
-/* Prog15.cpp */
-/* Tamanho de campo e justificado à esquerda */
+/* Prog15.c */
+/* Tamanho de campo e justificado Ã  esquerda */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
 #include <locale.h> /* para setlocale() */
