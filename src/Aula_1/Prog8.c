@@ -1,5 +1,5 @@
-/* Prog8.cpp
- * Mostra a impress„o de %
+/* Prog8.c
+ * Mostra a impress√£o de %
  */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
