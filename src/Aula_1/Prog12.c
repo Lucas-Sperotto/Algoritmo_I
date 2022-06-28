@@ -1,4 +1,4 @@
-/* Prog12.cpp */
+/* Prog12.c */
 /* Tamanho de campo com ponto flutuante */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
@@ -14,8 +14,3 @@ int main()
     system("PAUSE");
     return 0;
 }
-
-
-
-
-
