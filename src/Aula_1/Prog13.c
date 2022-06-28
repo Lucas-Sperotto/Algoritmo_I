@@ -1,4 +1,4 @@
-/* Prog13.cpp */
+/* Prog13.c */
 
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
@@ -18,7 +18,7 @@ int main()
     printf("%10.2f %10.2f %10.2f\n",
            834.0, 1500.55, 4890.21);
 
-    /* Tamanho de campo e justificado à esquerda */
+    /* Tamanho de campo e justificado Ã  esquerda */
     printf("%-10.2f %-10.2f %-10.2f\n",
            8.0, 15.3, 584.13);
     printf("%-10.2f %-10.2f %-10.2f\n",
@@ -27,8 +27,3 @@ int main()
     system("PAUSE");
     return 0;
 }
-
-
-
-
-
