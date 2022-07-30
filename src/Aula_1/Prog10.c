@@ -5,7 +5,7 @@
 #include <locale.h> /* para setlocale() */
 int main()
 {
-    setlocale(LC_ALL, "Portuguese"); /* Configura o idioma portugues */
+    setlocale(LC_ALL, "portuguese-brazilian"); /* Configura o idioma portugues */
     int lapis = 45, borrachas = 2345,
         canetas = 420, cadernos = 8, fitas = 13050;
     printf("\nLapis        %12d", lapis);
