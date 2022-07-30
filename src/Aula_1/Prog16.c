@@ -5,7 +5,7 @@
 #include <locale.h> /* para setlocale() */
 int main()
 {
-    setlocale(LC_ALL, "Portuguese"); /* Configura o idioma portugues */
+    setlocale(LC_ALL, "portuguese-brazilian"); /* Configura o idioma portugues */
     printf("\nOBJETO       %12s", "CODIGO");
     printf("\nLapis        %12s", "WQR");
     printf("\nBorrachas    %12s", "ASO");
