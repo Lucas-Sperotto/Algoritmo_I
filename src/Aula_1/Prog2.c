@@ -1,9 +1,11 @@
 /* Prog2.c */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
+#include <locale.h> /* para setlocale() */
 int main()
 {
-    printf("Este é o número %d.\n", 5 );
-    //printf("Este é o número %E.\n", 5000000.1 );
+    setlocale(LC_ALL, "portuguese-brazilian"); /* Configura o idioma portugues */
+    printf("Este Ã© o nÃºmero %d.\n", 5 );
+    //printf("Este Ã© o nÃºmero %E.\n", 5000000.1 );
     return 0;
 }
