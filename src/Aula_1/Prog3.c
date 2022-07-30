@@ -1,9 +1,11 @@
 /* Prog3.c */
 #include <stdio.h> /* para printf() */
 #include <stdlib.h>/* para system() */
+#include <locale.h> /* para setlocale() */
 int main()
 {
-    printf("%s est· a %d milhıes de milhas\ndo sol.\n", "Venus", 67 );
+    setlocale(LC_ALL, "portuguese-brazilian"); /* Configura o idioma portugues */
+    printf("%s est√° a %d milh√µes de milhas\ndo sol.\n", "Venus", 67 );
     system("PAUSE");
     return 0;
 }
