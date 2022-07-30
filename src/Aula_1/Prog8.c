@@ -7,7 +7,7 @@
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese"); /* Configura o idioma portugues */
+    setlocale(LC_ALL, "portuguese-brazilian"); /* Configura o idioma portugues */
     int reajuste = 10;
 
     printf("O reajuste foi de %d%%.\n", reajuste);
