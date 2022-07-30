@@ -5,7 +5,7 @@
 #include <locale.h> /* para setlocale() */
 int main()
 {
-    setlocale(LC_ALL, "Portuguese"); /* Configura o idioma portugues */
+    setlocale(LC_ALL, "portuguese-brazilian"); /* Configura o idioma portugues */
     printf("%4.2f\n", 3456.78);
     printf("%3.2f\n", 3456.78);
     printf("%3.1f\n", 3456.78);
