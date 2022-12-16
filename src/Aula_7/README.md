@@ -1,0 +1,3 @@
+# Aula_07_-_Funções_(Parte_1)
+## Sétima aula da disciplina de Algoritmo e Laboratório de Programação I do curso de Bacharelado em Ciência da Computação da UNEMAT de Alto Araguaia e Rondonópolis.
+Conteúdo: Chamando uma função; Funções simples; O protótipo de uma função; O tipo de uma função; O Comando return; A definição de uma função; Parâmetros de uma função; Passagem de argumentos por valor; Funções Que Não Retornam Nada: Tipo void; Funções Que Não Recebem Nada e Não Retornam Nada; Eliminando Protótipo de Funções; Eliminando o Protótipo de Funções do Tipo int, char ou void; Calculando a área de uma Esfera. Acesse o vídeo com a explicação dos códigos em: [https://youtu.be/OMW40CVYm2E](https://youtu.be/OMW40CVYm2E)
