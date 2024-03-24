@@ -1,0 +1,31 @@
+Program Peso_Ideal;
+
+uses crt;
+
+var sexo : integer;
+    P, A : real;
+
+begin
+     clrscr;
+     writeln('Homem opcao 1, Mulher opcao 2');
+     repeat
+           write('Indique o sexo de acordo com a classificacao: '); readln(sexo);
+           if (sexo = 1 ) or (sexo = 2) then
+              begin
+                   if (sexo = 1 ) then
+                      begin
+                           write('Digite sua altura: '); readln(A);
+                           P := 72.7 * A - 58;
+                      end;
+                   if (sexo =2 ) then
+                      begin
+                           write('Digite sua altura: '); readln(A);
+                           P := 62.1 * A - 44.7;
+                      end;
+                   writeln('Seu peso ideal e: ', P:6:2);
+              end
+           else
+               write('Selecione apenas 1 ou 2');
+     until (sexo = 1) or ( sexo = 2);
+     readkey;
+end.

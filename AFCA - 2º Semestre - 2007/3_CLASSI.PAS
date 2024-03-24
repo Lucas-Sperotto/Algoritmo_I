@@ -1,0 +1,30 @@
+program Classifica_Idade;
+
+uses crt;
+
+var I : integer;
+
+begin
+     clrscr;
+     repeat
+     writeln('Classifique nadador pela idade');
+     write('Insira a idade do nadador: '); readln(I);
+     if (I < 5) then
+        writeln('Muito novo para um nadador');
+     if (I >= 5) and (I <= 7) then
+        writeln('Nadador Infantil A');
+     if (I >= 8) and (I <= 10) then
+        writeln('Nadador Infantil B');
+     if (I >= 11) and (I <= 13) then
+        writeln('Nadador Juvenil A');
+     if (I >= 14) and (I <= 17) then
+        writeln('Nadador Juvenil B');
+     if (I >= 18) then
+        writeln('Nadador Senior');
+     until (I >= 5);
+     readkey;
+end.
+
+
+
+

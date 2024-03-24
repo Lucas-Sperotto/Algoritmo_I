@@ -1,0 +1,13 @@
+program Raiz_Quadrada;
+
+uses crt;
+
+var X, Y : real;
+
+begin
+     clrscr;
+     write('Insira um numero para se extrair a raiz quadrada: '); readln(X);
+     Y := sqrt(X);
+     writeln('A raiz quadrada de ', X:6:2, ' e: ', Y:6:2);
+     readkey;
+end.
